@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>490654254338-1pe5l1slb3ppip4s9p0scpjn4f77q856.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.490654254338-1pe5l1slb3ppip4s9p0scpjn4f77q856</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCeK_OjyKMiagsKuXt63jG7Ubw_I96UjEY</string>
+	<key>GCM_SENDER_ID</key>
+	<string>490654254338</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.cypher.ZerseyAssignment</string>
+	<key>PROJECT_ID</key>
+	<string>zerseyassignment</string>
+	<key>STORAGE_BUCKET</key>
+	<string>zerseyassignment.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<false/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:490654254338:ios:4bab443004d466ff3b6e1b</string>
+	<key>DATABASE_URL</key>
+	<string>https://zerseyassignment.firebaseio.com</string>
+</dict>
+</plist>
