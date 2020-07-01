@@ -12,11 +12,28 @@ import Firebase
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         FirebaseApp.configure()
+//        window = UIWindow()
+//        window?.makeKeyAndVisible()
+//
+//        let vc = SignInViewController()
+//        window?.rootViewController = vc
+//        window = UIWindow(frame: UIScreen.main.bounds)
+//        window?.makeKeyAndVisible()
+//        
+//        let signInViewController = SignInViewController()
+//        signInViewController.title = "Sign IN"
+//        
+//        let navigationController = NavigationController()
+//        navigationController.title = "Assignment App"
+//        let mainVC = MainViewController()
+//        mainVC.title = "Draw Pad"
+//        navigationController.viewControllers = [signInViewController,mainVC]
+//        window?.rootViewController = navigationController
         return true
     }
 

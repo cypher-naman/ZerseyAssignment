@@ -11,7 +11,7 @@ import FirebaseStorage
 import FirebaseFirestore
 import Firebase
 
-class ViewController: UIViewController {
+class MainViewController: UIViewController {
     let drawingBoard = DrawingBoard()
     var imagePicker: ImagePicker!
     var imageToBeUploaded : UIImage? = nil
@@ -149,7 +149,7 @@ class ViewController: UIViewController {
     }
 }
 
-extension ViewController: ImagePickerDelegate {
+extension MainViewController: ImagePickerDelegate {
     func didSelect(image: UIImage?) {
         //uploading to firebase
         guard let image = image,

@@ -11,12 +11,14 @@
 		981254B424A9C75900E42D27 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981254B324A9C75900E42D27 /* ImagePicker.swift */; };
 		984EFD5224A85E7600BF96B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984EFD5124A85E7600BF96B0 /* AppDelegate.swift */; };
 		984EFD5424A85E7600BF96B0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984EFD5324A85E7600BF96B0 /* SceneDelegate.swift */; };
-		984EFD5624A85E7600BF96B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984EFD5524A85E7600BF96B0 /* ViewController.swift */; };
-		984EFD5924A85E7600BF96B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 984EFD5724A85E7600BF96B0 /* Main.storyboard */; };
+		984EFD5624A85E7600BF96B0 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984EFD5524A85E7600BF96B0 /* MainViewController.swift */; };
 		984EFD5B24A85E7800BF96B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 984EFD5A24A85E7800BF96B0 /* Assets.xcassets */; };
 		984EFD5E24A85E7800BF96B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 984EFD5C24A85E7800BF96B0 /* LaunchScreen.storyboard */; };
+		98A98B9624AC3530002C7560 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A98B9524AC3530002C7560 /* NavigationController.swift */; };
+		98A98B9824AC442A002C7560 /* OTPVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A98B9724AC442A002C7560 /* OTPVC.swift */; };
 		98DC490624AA319C0004C7F1 /* DrawingBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DC490524AA319C0004C7F1 /* DrawingBoard.swift */; };
 		98DC490824AA32190004C7F1 /* extentionsAndModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DC490724AA32190004C7F1 /* extentionsAndModel.swift */; };
+		98F4531E24AADECD005AA405 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F4531D24AADECD005AA405 /* SignInViewController.swift */; };
 		C399836086F3770B9BB9796F /* Pods_ZerseyAssignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C4AD0A153144319C166F7B2 /* Pods_ZerseyAssignment.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,13 +28,15 @@
 		984EFD4E24A85E7600BF96B0 /* ZerseyAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZerseyAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		984EFD5124A85E7600BF96B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		984EFD5324A85E7600BF96B0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		984EFD5524A85E7600BF96B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		984EFD5824A85E7600BF96B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		984EFD5524A85E7600BF96B0 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		984EFD5A24A85E7800BF96B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		984EFD5D24A85E7800BF96B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		984EFD5F24A85E7800BF96B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98A98B9524AC3530002C7560 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		98A98B9724AC442A002C7560 /* OTPVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPVC.swift; sourceTree = "<group>"; };
 		98DC490524AA319C0004C7F1 /* DrawingBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingBoard.swift; sourceTree = "<group>"; };
 		98DC490724AA32190004C7F1 /* extentionsAndModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extentionsAndModel.swift; sourceTree = "<group>"; };
+		98F4531D24AADECD005AA405 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		9C4AD0A153144319C166F7B2 /* Pods_ZerseyAssignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZerseyAssignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBE6DD33AE7B92AAC884DD8D /* Pods-ZerseyAssignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZerseyAssignment.release.xcconfig"; path = "Target Support Files/Pods-ZerseyAssignment/Pods-ZerseyAssignment.release.xcconfig"; sourceTree = "<group>"; };
 		CE19016B3FAB72BB84A9EF9A /* Pods-ZerseyAssignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZerseyAssignment.debug.xcconfig"; path = "Target Support Files/Pods-ZerseyAssignment/Pods-ZerseyAssignment.debug.xcconfig"; sourceTree = "<group>"; };
@@ -90,15 +94,17 @@
 			children = (
 				981254B124A9BBFA00E42D27 /* GoogleService-Info.plist */,
 				984EFD5124A85E7600BF96B0 /* AppDelegate.swift */,
+				984EFD5524A85E7600BF96B0 /* MainViewController.swift */,
 				984EFD5324A85E7600BF96B0 /* SceneDelegate.swift */,
-				984EFD5524A85E7600BF96B0 /* ViewController.swift */,
-				984EFD5724A85E7600BF96B0 /* Main.storyboard */,
 				984EFD5A24A85E7800BF96B0 /* Assets.xcassets */,
 				984EFD5C24A85E7800BF96B0 /* LaunchScreen.storyboard */,
 				984EFD5F24A85E7800BF96B0 /* Info.plist */,
 				981254B324A9C75900E42D27 /* ImagePicker.swift */,
 				98DC490524AA319C0004C7F1 /* DrawingBoard.swift */,
 				98DC490724AA32190004C7F1 /* extentionsAndModel.swift */,
+				98F4531D24AADECD005AA405 /* SignInViewController.swift */,
+				98A98B9524AC3530002C7560 /* NavigationController.swift */,
+				98A98B9724AC442A002C7560 /* OTPVC.swift */,
 			);
 			path = ZerseyAssignment;
 			sourceTree = "<group>";
@@ -166,7 +172,6 @@
 				984EFD5E24A85E7800BF96B0 /* LaunchScreen.storyboard in Resources */,
 				981254B224A9BBFA00E42D27 /* GoogleService-Info.plist in Resources */,
 				984EFD5B24A85E7800BF96B0 /* Assets.xcassets in Resources */,
-				984EFD5924A85E7600BF96B0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +224,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98F4531E24AADECD005AA405 /* SignInViewController.swift in Sources */,
+				98A98B9824AC442A002C7560 /* OTPVC.swift in Sources */,
+				98A98B9624AC3530002C7560 /* NavigationController.swift in Sources */,
 				98DC490824AA32190004C7F1 /* extentionsAndModel.swift in Sources */,
 				98DC490624AA319C0004C7F1 /* DrawingBoard.swift in Sources */,
-				984EFD5624A85E7600BF96B0 /* ViewController.swift in Sources */,
+				984EFD5624A85E7600BF96B0 /* MainViewController.swift in Sources */,
 				981254B424A9C75900E42D27 /* ImagePicker.swift in Sources */,
 				984EFD5224A85E7600BF96B0 /* AppDelegate.swift in Sources */,
 				984EFD5424A85E7600BF96B0 /* SceneDelegate.swift in Sources */,
@@ -231,14 +239,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		984EFD5724A85E7600BF96B0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				984EFD5824A85E7600BF96B0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		984EFD5C24A85E7800BF96B0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
